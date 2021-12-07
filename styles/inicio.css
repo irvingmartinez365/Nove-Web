@@ -1,0 +1,41 @@
+.welcome-section{
+    text-align: center;
+}
+
+@media screen and (min-width: 1020px) {
+    body{
+        margin-top: 0;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        transition: all .4s;
+        background: none;
+    }
+    
+    .page-name{
+        color: white;
+        width: 50%;
+        text-align: left;
+        margin: 0 30px;
+    }
+    .nav{
+        width: 50%;
+    }
+    .nav-menu__element__link{
+        padding: 15px 0;
+        color: white;
+    }
+    .down-header{
+        background: #fff;
+
+    }
+   
+    .focus{
+        color: #eee;
+    }
+}
+
+

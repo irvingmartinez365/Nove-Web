@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Irving Mendoza Matinez">
+    <meta name="description" content="En Nove-Web subo mis historias de ficcion">
+
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="styles/general-styles.css">
+    <link rel="stylesheet" href="styles/histories.css">
+    
+    <title>Nove-Web | Historias</title>
+
+    <!-- SCRIPTS -->
+    <script defer src="js/app.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <h1 class="page-name">Nove-Web</h1>
+        <nav class="nav">
+            <ul class="nav-menu container--flex">
+                <li class="nav-menu__element"><a href="index.html" class="nav-menu__element__link">Inicio</a></li>
+                <li class="nav-menu__element"><a href="historias.html" class="nav-menu__element__link focus">Historias</a></li>
+                <li class="nav-menu__element"><a href="info.html" class="nav-menu__element__link">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+  
+    <main class="main">
+        <section class="section all-histories container--flex" id="container">
+            
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__txt copy">Nove-Web (c)</p>
+        <div class="contact">
+            <address class="author writer">
+
+                <p class="footer__txt">Escritor: Gabriel</p>
+
+                <ul class="social">
+                    <li class="email"><i class="fas fa-around"></i>brixxmens@gmail.com</li>
+                    <li class="social__element"><a href="#" class="social__element__link"><i class="fab fa-discord"></i> Discord</a></li>
+
+                    <li class="social__element"><a href="#" class="social__element__link"><i class="fab fa-twitter"></i> Twitter</a></li>
+    
+                </ul>
+           
+            </address>
+            <address class="author developer">
+
+                <p class="footer__txt">Desarrollador: Irving Martinez</p>
+
+                <ul class="social">
+                    <li class="email"><i class="fas fa-around"></i>irvingmartinez030605@gmail.com</li>
+                    <li class="social__element"><a href="#" class="social__element__link"><i class="fab fa-twitter"></i> Twitter</a></li>
+
+                    <li class="social__element"><a href="#" class="social__element__link"><i class="fab fa-github"></i> GitHub</a></li>
+    
+                </ul>
+            </address>      
+        </div>
+    </footer>
+
+        <!-- FONT AWESOME ICONS -->
+    <script src="https://kit.fontawesome.com/be7646c638.js" crossorigin="anonymous"></script>
+
+    <template id="historie-element">
+        <a href="capitulos.html" class="historie-link column column--50 column--25">
+            <div class="historie container--flex ">
+                <img class="historie__img" src="image" alt="">
+                <div class="historie__content"> 
+                    <strong class="historie__content__title">Title</strong>
+                    <p class="historie__content__txt">Description...</p>
+                    <p class="historie__content__txt"><b>Publicado: </b><time>Date</time></p>
+                </div>
+            </div>
+        </a>
+        
+    </template>
+    
+</body>
+</html>

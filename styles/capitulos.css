@@ -1,0 +1,46 @@
+.cover-img{
+    width: 120px;
+    height: 210px;
+    position: relative;
+    top: -68px
+}
+.cover-content{
+    width: 100%;
+    margin-left: 10px;
+}
+.cover-title{
+    font-size: 1.75rem;
+    color :#539AF5;
+}
+.cover-categories{
+    margin-top: 20px;
+}
+.categorie{
+    display: inline-block;
+    font-size: 12px;
+    background: #ddd;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.cover{
+    height: 142px;
+}
+
+
+.description__txt{
+    font-size: 1rem;
+}
+
+.cap{
+    padding: 10px 0;
+    font-size: 1.25rem;
+
+}
+.cap__link{
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #539AF5;
+    text-decoration: none;
+}

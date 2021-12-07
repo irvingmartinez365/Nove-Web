@@ -1,0 +1,53 @@
+.creator{
+    margin: 40px 0;
+}
+.creator__email{
+    color: rgb(83, 154, 245);
+}
+.creator__social{
+    justify-content: center;
+    font-size: 2.5em;
+}
+.creator__social__element{
+    margin: 0 20px;
+}
+.creator__social__element__link{
+    color: #000;
+}
+.creator__social__element__link:hover{
+    color: rgb(83, 154, 245);
+}
+
+@media screen and (min-width: 1020px) {
+    body{
+        margin-top: 30px;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left:0;
+        width: 100%;
+        background: #fff;
+        
+    }
+    
+    .page-name{
+        color: var(--h1-color);
+        width: 50%;
+        text-align: left;
+        margin: 0 30px;
+    }
+    .nav{
+        width: 50%;
+    }
+    .nav-menu__element__link{
+        padding: 15px 0;
+        color: #333;
+    }
+    .focus{
+        color: #fff;
+    }
+   
+}
