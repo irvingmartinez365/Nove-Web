@@ -1,6 +1,6 @@
 const container = document.getElementById('container')
 const template = document.getElementById('historie-element').content;
-const requestJSON = 'http://127.0.0.1:5500/js/list.json';
+const requestJSON = 'http://nove-web.vercel.app/js/list.json';
 const request = new XMLHttpRequest();
 
 request.open('GET', requestJSON);
